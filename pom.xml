@@ -28,6 +28,10 @@
   <artifactId>jclouds</artifactId>
   <name>Apache jclouds</name>
   <packaging>pom</packaging>
+  <properties>
+    <sonar.organization>gamewame</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
   <modules>
     <module>project</module>
     <module>resources</module>
